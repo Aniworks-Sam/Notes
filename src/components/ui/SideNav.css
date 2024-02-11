@@ -1,0 +1,35 @@
+.active{
+  border-left: 5rem solid #2196f3;
+  font-weight: bold;
+}
+
+.dragger {
+  width: 5px;
+  cursor: ew-resize;
+  padding: 4px 0 0;
+  border-top: 1px solid #ddd;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: #2196f3;
+}
+
+.drawer{
+  flex-shrink: 0;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn:hover{
+  color: #fff;
+}
+
+.btn-side{
+  text-align: center;
+  margin: 0.5rem 0;
+}

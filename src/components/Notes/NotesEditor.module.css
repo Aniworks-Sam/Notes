@@ -1,0 +1,27 @@
+.control {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.control input {
+  display: block;
+  width: 100%;
+  font: inherit;
+  background-color: #90cbf9;
+  color: #0d3c61;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 0.75rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.control input:focus {
+  outline: none;
+  border-color: #0d3c61;
+  background: #90cbf9;
+}
+
+.toolbar {
+  overflow: hidden;
+}

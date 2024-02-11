@@ -1,0 +1,30 @@
+/* .container {
+  margin-top: 1rem;
+} */
+
+.sidebar{
+  height: 62rem;
+  border-right: 1px solid #999;
+  overflow-y: auto;
+}
+
+.header {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.editor {
+  height: 50%;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.button{
+  border: none;
+  background-color: #087f5b;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
